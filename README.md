@@ -1,6 +1,6 @@
-# STREAMING YUV422_YUYV_PACKED PIXEL FORMAT DATA FROM GIGE VISION CAMERA WITH  PYTHON HARVESTER
+## STREAMING YUV422_YUYV_PACKED PIXEL FORMAT DATA FROM GIGE VISION CAMERA WITH  PYTHON HARVESTERS
 
-## COMPUTER VISION APPLICATION
+### FOR COMPUTER VISION APPLICATION
 
 This code can be used to streaming YUV422_YUYV_PACKED pixel format data from a gige vision ethernet camera by using python harvester library.
 
@@ -8,17 +8,17 @@ This code can be used to streaming YUV422_YUYV_PACKED pixel format data from a g
 
 1. Python >= 3.4  # Tested on python 3.7.10 & python 3.8.10
 
-2. Install any GenTL Producers
+2. Intsall Harverstes 
 
- Here I have used Matrix Vision mvGenTLProducer.cti. This can be downloaded from this link (http://static.matrix-vision.com/mvIMPACT_Acquire/2.44.0/)
+   pip install harvesters
 
- 3. Intsall Harverstes 
+   Refer Harvesters documentation for mode details
 
-    pip install harvesters
+   https://github.com/genicam/harvesters
 
-    Refer Harvesters documentation for mode details
+3. Install any GenTL Producers (List can be found on harvesters repository above)
 
-    https://github.com/genicam/harvesters
+   Here used Matrix Vision mvGenTLProducer.cti. This can be downloaded from this link (http://static.matrix-vision.com/mvIMPACT_Acquire/2.44.0/)
 
 4. Install Open CV
 
